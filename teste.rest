@@ -1,0 +1,39 @@
+### ☕Java☕ - App A GET
+GET http://localhost:8080/api
+
+### ☕Java☕ - App B GET
+GET http://localhost:8081/api
+
+### 🎩 Dapr - Invocação Síncrona
+
+### ☕Java☕ - App A POST /startsync
+POST http://localhost:8080/api/startsync
+
+### 🎩 Dapr - Invocação Assíncrona
+
+### ☕Java☕ - App A POST /startasync
+POST http://localhost:8080/api/startasync
+
+### 🎩 Dapr - State Store
+
+### ☕Java☕ - App A POST /state
+POST http://localhost:8080/api/state/naoacredito
+
+### ☕Java☕ - App A GET /state
+GET http://localhost:8080/api/state
+
+### ☕Java☕ - App B POST /state
+POST http://localhost:8081/api/state/naoacredito1
+
+### ☕Java☕ - App B GET /state
+GET http://localhost:8081/api/state
+
+### 🎩 Dapr - Configuration Store
+
+### ☕Java☕ - App A GET /config
+GET http://localhost:8080/api/config
+
+### 🎩 Dapr - Secret Store
+
+### ☕Java☕ - App A GET /secret
+GET http://localhost:8080/api/secret
