@@ -10,6 +10,8 @@ Apresentação realizada 16/06/2025 no evento virtual da comunidade SouJava pelo
 
 ![Banner](./imgs/soujava-30anos-dapr.jpg)
 
+## Youtube
+
 [![Gravação 🎥](https://img.youtube.com/vi/CT_yrYaQoKI/maxresdefault.jpg)](https://www.youtube.com/live/CT_yrYaQoKI?si=Po9fN0pq5sYSiMjp&t=12048)
 
 [Programação](https://soujava.github.io/java30y-celebration-week/)
