@@ -1,16 +1,18 @@
-# SouJava 2025 - 30 anos - Simplificando o desenvolvimento de microsserviços com o Dapr Runtime.
+# SouJava 2025 - 30 anos - Simplificando o desenvolvimento de microsserviços com o Dapr 🎩 Runtime.
 
 Apresentação realizada 16/06/2025 no evento virtual da comunidade SouJava pelos 30 anos da linguagem Java, sobre como simplificar o desenvolvimento de microsserviços com o Dapr Runtime.
 
 [![My Skills](https://skillicons.dev/icons?i=azure,java,spring,docker,git,linux)](https://skillicons.dev)
 
+![Arquitetura](./imgs/arquitetura.png)
+
 ## Evento
 
-![Banner](./imgs/java30anos.gif)
+![Banner](./imgs/soujava-30anos-dapr.jpg)
 
 [Programação](https://soujava.github.io/java30y-celebration-week/)
 
-[Download Slides](./diagramas/#)
+[Download Slides](./imgs/soujava2025-30anos-dapr.pdf)
 
 ## Configuração do ambiente
 
@@ -156,8 +158,14 @@ public class HomeController {
 
 ```bash
 mvn package -DskipTests
+```
+
+- Pressione F5 para que o comando abaixo seja executado
+
+```bash
 dapr run -f dapr.yaml
 ```
+
 - Criar na raiz do projeto um arquivo teste.rest com a chamada para o método
 
 ```bash
